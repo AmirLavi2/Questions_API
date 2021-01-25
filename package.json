@@ -2,10 +2,10 @@
   "name": "questions_api",
   "version": "1.0.0",
   "description": "",
-  "main": "srv.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node srv.js",
-    "dev": "nodemon srv.ts",
+    "start": "node dist/app.js",
+    "dev": "node src/app.ts",
     "build": "tsc -p ."
   },
   "author": "",
